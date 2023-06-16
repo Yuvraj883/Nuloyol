@@ -38,10 +38,10 @@ const AboutSection = () => {
                         </p>
                     </div>
                 </section>
-                <p className='about-p'>
+                <div className='about-p'>
                     <h1>Self-funded, profitable and proud.</h1>
                     Our core values that we live and breathe everyday.
-                </p>
+                </div>
             </div>
         </>
     )
