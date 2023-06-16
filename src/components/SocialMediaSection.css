@@ -1,0 +1,15 @@
+.social-media-section{
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-around;
+    align-items: center;
+    padding:25px 150px;
+    margin-bottom: 100px
+
+}
+
+.social-heading{
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+}
