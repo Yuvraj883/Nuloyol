@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import TextContent from "../components/TextContent";
+import AboutSection from "../components/AboutSection";
 
 const Home=()=> {
     return (
@@ -8,6 +9,8 @@ const Home=()=> {
             <Navbar/>
             <HeroSection/>
             <TextContent/>
+            <AboutSection/>
+            
         </>
     )
 
