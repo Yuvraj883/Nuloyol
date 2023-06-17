@@ -4,6 +4,7 @@ import TextContent from "../components/TextContent";
 import AboutSection from "../components/AboutSection";
 import Footer from "../components/Footer";
 import SocialMediaSection from "../components/SocialMediaSection";
+import RevenueHub from "../components/RevenueHub";
 
 const Home=()=> {
     console.log("Social media section");
@@ -13,6 +14,7 @@ const Home=()=> {
             <HeroSection/>
             <TextContent/>
             <AboutSection/>
+            <RevenueHub/>
             <SocialMediaSection/>            
 
             <Footer/>
