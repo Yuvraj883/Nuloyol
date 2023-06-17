@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import TextContent from "../components/TextContent";
+import SocialMediaSection from "../components/SocialMediaSection";
 import Footer from "../components/Footer";
+
 
 
 const Company = ()=>{
@@ -8,6 +10,7 @@ const Company = ()=>{
         <>
         <Navbar/>
         <TextContent/>
+        <SocialMediaSection/>
         <Footer/>
 
         
