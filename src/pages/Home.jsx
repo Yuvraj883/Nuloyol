@@ -5,6 +5,7 @@ import AboutSection from "../components/AboutSection";
 import Footer from "../components/Footer";
 import SocialMediaSection from "../components/SocialMediaSection";
 import RevenueHub from "../components/RevenueHub";
+import TryNuloyal from "../components/TryNuloyal";
 
 const Home=()=> {
     console.log("Social media section");
@@ -16,7 +17,7 @@ const Home=()=> {
             <AboutSection/>
             <RevenueHub/>
             <SocialMediaSection/>            
-
+            <TryNuloyal/>
             <Footer/>
             
         </>
