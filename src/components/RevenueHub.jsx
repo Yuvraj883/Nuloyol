@@ -36,7 +36,7 @@ const RevenueHub = ()=>{
                             </h1>
                         </div>
                         <div>
-                            <p className='inner-flex-p'>Configure price quotes easily, even for the most complex products</p>
+                            <p className='inner-flex-p'>Streamline contract management and accelerate negotiations</p>
                         </div>
 
                     </div>
@@ -48,7 +48,7 @@ const RevenueHub = ()=>{
                             </h1>
                         </div>
                         <div>
-                            <p className='inner-flex-p'>Configure price quotes easily, even for the most complex products</p>
+                            <p className='inner-flex-p'>Manage subscriptions, billing, and invoicing for all pricing models</p>
                         </div>
 
                     </div>
@@ -60,7 +60,7 @@ const RevenueHub = ()=>{
                             </h1>
                         </div>
                         <div>
-                            <p className='inner-flex-p'>Configure price quotes easily, even for the most complex products</p>
+                            <p className='inner-flex-p'>Bring buyers and sellers together to collaborate and close deals</p>
                         </div>
 
                     </div>
