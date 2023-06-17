@@ -12,7 +12,7 @@ const RevenueHub = ()=>{
                     </div>
 
                     <div>
-                        <p>Top 50 Best Sales Product for 2023</p>
+                        <p className='p-2'>Top 50 Best Sales Product for 2023</p>
                     </div>
             </div>
             <div className='flex'>
