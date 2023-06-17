@@ -67,3 +67,32 @@
     line-height: 27px;
 
 }
+
+.CPL h1{
+    color:#FF9E00;
+    font-weight: 700;
+    font-size:28px;
+    line-height: 42px;
+
+}
+.CML h1{
+    color:#00FFE5;
+    font-weight: 700;
+    font-size:28px;
+    line-height: 42px;
+
+}
+.Billing h1{
+    color:#0084FF;
+    font-weight: 700;
+    font-size:28px;
+    line-height: 42px;
+
+}
+.DealRoom h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size:28px;
+    line-height: 42px;
+
+}
