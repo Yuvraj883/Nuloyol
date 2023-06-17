@@ -1,9 +1,9 @@
 
-const company = ()=>{
+const Company = ()=>{
     return(
         <>
         
         </>
     )
 }
-export default company;
+export default Company;
