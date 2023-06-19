@@ -9,7 +9,7 @@ const FormSection = () => {
                     <p>Streamline your quote-to-revenue process. Issue proposals, close deals, manage contracts, and automate your subscriptions and billing in one unified platform.</p>
                     <p className='subscript'>Trusted by 50% of fortune 1000</p>
                     <div className='contact-info'>
-                    <div className="flex">
+                    <div className="flex1">
                                 <img src="./images/Phone.svg" alt="phone-icon" />
                                 <div>
                                     <p className='contact-info-p'>PHONE </p>
@@ -17,7 +17,7 @@ const FormSection = () => {
                                     <span>111 1111 111</span>
                                 </div>
                             </div>
-                            <div className="flex">
+                            <div className="flex1">
                                 <img src="./images/Email.svg" alt="phone-icon" />
                                 <div>
                                     <p className='contact-info-p'>E-MAIL </p>
@@ -25,7 +25,7 @@ const FormSection = () => {
                                     <span>info@company.com</span>
                                 </div>
                             </div>
-                            <div className="flex">
+                            <div className="flex1">
                                 <img src="./images/Email.svg" alt="phone-icon" />
                                 <div>
                                     <p className='contact-info-p'>HELPDESK </p>
@@ -74,3 +74,4 @@ const FormSection = () => {
     )
 }
 export default FormSection; 
+
