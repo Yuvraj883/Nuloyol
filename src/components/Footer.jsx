@@ -56,7 +56,7 @@ const Footer = ()=>{
             </div>
         </div>
         <div>
-            <hr></hr>
+            <hr className="footer-hr"></hr>
             <p className='copyright'>&copy; 2022 NULOYAL  All Rights Reserved</p>
         </div>
         </div>
