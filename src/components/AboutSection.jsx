@@ -1,4 +1,5 @@
 import './AboutSection.css';
+// import SelfFunded from './SelfFunded';
 
 const AboutSection = () => {
     return (
@@ -38,10 +39,7 @@ const AboutSection = () => {
                         </p>
                     </div>
                 </section>
-                <div className='about-p'>
-                    <h1>Self-funded, profitable and proud.</h1>
-                    Our core values that we live and breathe everyday.
-                </div>
+              {/* <SelfFunded/> */}
             </div>
         </>
     )
