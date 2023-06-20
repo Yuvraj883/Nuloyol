@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import SocialMediaSection from "../components/SocialMediaSection";
 import RevenueHub from "../components/RevenueHub";
 import TryNuloyal from "../components/TryNuloyal";
+import SelfFunded from "../components/SelfFunded";
 
 const Home=()=> {
     console.log("Social media section");
@@ -15,6 +16,7 @@ const Home=()=> {
             <HeroSection/>
             <TextContent/>
             <AboutSection/>
+            <SelfFunded/>
             <RevenueHub/>
             <SocialMediaSection/>            
             <TryNuloyal/>
