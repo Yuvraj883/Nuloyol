@@ -5,6 +5,7 @@ import AboutSection from '../components/AboutSection';
 import TextContent from '../components/TextContent';
 import TryNuloyal from '../components/TryNuloyal'; 
 import SelfFunded from '../components/SelfFunded';
+import WhatWeDo from '../components/WhatWeDo';
 
 
 
@@ -13,6 +14,7 @@ const Platform = ()=>{
         <>
         <Navbar/>
         <HeroSection/>
+        <WhatWeDo/>
         <AboutSection/>
         <SelfFunded/>
         <TextContent/>
