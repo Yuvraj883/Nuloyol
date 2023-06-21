@@ -5,7 +5,7 @@ const Navbar=()=> {
         <>
             <nav className="navbar">
             <span className="title">
-                NULOYAL
+               <Link to="/"> NULOYAL</Link>
             </span>
             <div>
                 <ul >
