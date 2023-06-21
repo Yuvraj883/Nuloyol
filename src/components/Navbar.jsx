@@ -1,4 +1,5 @@
 import './Navbar.css'
+import {Link, Outlet} from 'react-router-dom';
 const Navbar=()=> {
     return (
         <>
@@ -8,15 +9,16 @@ const Navbar=()=> {
             </span>
             <div>
                 <ul >
-                    <li>Platform</li>
-                    <li>Customer</li>
-                    <li>Learning Center</li>
-                    <li>Company</li>
-                    <li>Pricing</li>
+                    <li> <Link to="/platform">Platform</Link>  </li>
+                    <li><Link to="/*">Customers</Link></li>
+                    <li><Link to="/*">Learning Center</Link></li>
+                    <li><Link to="/company">Company</Link></li>
+                    <li><Link to="/*">Pricing</Link></li>
                 </ul>
             </div>
             <button className='request-demo'>Request Demo</button>
             </nav>
+            <Outlet/>
         </>
 
     )
