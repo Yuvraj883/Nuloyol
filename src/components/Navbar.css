@@ -29,10 +29,13 @@ ul{
 
     
 }
-ul li{
+ul li {
     list-style: none;
     margin-right: 20px;
     cursor: pointer;
+}
+ a{
+    text-decoration: none;
 }
 
 .request-demo{
