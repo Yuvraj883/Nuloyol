@@ -84,7 +84,7 @@ const FAQ = () => {
                     <h1>Ans.</h1>
 
                     <div className={question1 === 'true' ? 'answer active ' : 'hidden'}>
-                        1.
+                        
                         <img className={question1 === 'true' ? '' : 'hidden'} src='../images/WhiteStar.svg' alt="star-icon" />
 
                         <p>Chowdeck is a technology company that provides logistics services to both vendors and consumers. This potentially allows food vendors to deliver meals seamlessly while also providing consumers with an easy platform to order meals from their favourite restaurants in their city.</p>
