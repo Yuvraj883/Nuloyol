@@ -62,7 +62,7 @@ const FAQ = () => {
             <div className='FAQ'>
                 <div className='FAQ-questions'>
                     <h1>FAQs.</h1>
-                    <div className={question1 === 'true' ? 'question active' : 'question'} onClick={handleSetQuestion1}>What is Chowdeck?
+                    <div className={question1 === 'true' ? 'question active ' : 'question'} onClick={handleSetQuestion1}>What is Chowdeck?
                         <img className={question1 === 'true' ? '' : 'hidden'} src='../images/YellowStar.svg' alt="star-icon" />
                     </div>
                     <div className={question2 === 'true' ? 'question active' : 'question'} onClick={handleSetQuestion2}>What locations do we currently deliver to?
