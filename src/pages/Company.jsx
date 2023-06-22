@@ -5,6 +5,7 @@ import TryNuloyal from "../components/TryNuloyal";
 import Footer from "../components/Footer";
 import FormSection from "../components/FormSection";
 import HelpSupport from "../components/HelpSupport"
+// import AboutSection from "../components/AboutSection";
 
 
 
@@ -13,6 +14,7 @@ const Company = ()=>{
         <>
         {/* <Navbar/> */}
         <FormSection/>
+        {/* <AboutSection/> */}
         <TextContent/>
         <HelpSupport/>
         <SocialMediaSection/>
