@@ -9,3 +9,18 @@
     
 
 }
+
+
+@media screen and (max-width: 800px) {
+    .text-content{
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 52px; 
+        font-weight: 800;
+        padding:100px 0px;
+        line-height: 72px;
+
+        
+    
+    }
+  }

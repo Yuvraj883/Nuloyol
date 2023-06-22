@@ -49,3 +49,16 @@
     color:#80695C;
 }
 
+@media screen and (max-width: 800px) {
+    .about-section{
+        padding:0px;
+        display: block;
+    }
+    .img{
+        flex-direction: column;
+
+    }
+    .img img{
+        width: 90%;
+    }
+  }
