@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import TextContent from "../components/TextContent";
 import SocialMediaSection from "../components/SocialMediaSection";
 import TryNuloyal from "../components/TryNuloyal";
@@ -11,7 +11,7 @@ import HelpSupport from "../components/HelpSupport"
 const Company = ()=>{
     return(
         <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <FormSection/>
         <TextContent/>
         <HelpSupport/>
