@@ -26,7 +26,8 @@
 
 .buttons-div{
     display: flex;
-    justify-content: space space-around;
+    align-items: center;
+    justify-content:  space-around;
   
 }
 
@@ -84,7 +85,14 @@
 .free-section span b{
     color:#1B1B1B;
 }
+.img-div{
+    display: flex;
+    align-items: center;
+}
 
+.img-div img{
+    width: 100%;
+}
 
 @media (max-width: 800px) {
     .try-nuloyal{
