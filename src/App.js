@@ -4,6 +4,7 @@ import Company from "./pages/Company";
 import Platform from "./pages/Platform";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -14,8 +15,12 @@ function App() {
             <Route path="/" element={<Navbar />} >
 
             <Route index element={<Home />}/>
-            <Route path="company" element={<Company />} />
             <Route path="platform" element={<Platform />} />
+            <Route path="customer" element={<PageNotFound/>} />
+            <Route path="learning-center" element={<PageNotFound />} />
+            <Route path="company" element={<Company />} />
+            <Route path="pricing" element={<PageNotFound/>} />
+
             </Route>
             
            
