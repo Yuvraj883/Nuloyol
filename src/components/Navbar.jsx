@@ -1,29 +1,29 @@
 import "./Navbar.css";
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
       <nav className="navbar">
         <span className="title">
-          <Link to="/"> NULOYAL</Link>
+          <NavLink to="/"> NULOYAL</NavLink>
         </span>
         <div>
           <ul>
             <li>
               {" "}
-              <Link to="/platform">Platform</Link>{" "}
+              <NavLink to="/platform">Platform</NavLink>{" "}
             </li>
             <li>
-              <Link to="#">Customers</Link>
+              <NavLink to="/customers">Customers</NavLink>
             </li>
             <li>
-              <Link to="#">Learning Center</Link>
+              <NavLink to="/learning-center">Learning Center</NavLink>
             </li>
             <li>
-              <Link to="/company">Company</Link>
+              <NavLink  to="/company">Company</NavLink>
             </li>
             <li>
-              <Link to="#">Pricing</Link>
+              <NavLink  to="/pricing">Pricing</NavLink>
             </li>
           </ul>
         </div>
