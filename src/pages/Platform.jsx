@@ -6,6 +6,7 @@ import TextContent from '../components/TextContent';
 import TryNuloyal from '../components/TryNuloyal'; 
 import SelfFunded from '../components/SelfFunded';
 import WhatWeDo from '../components/WhatWeDo';
+import FAQ from '../components/FAQ';
 
 
 
@@ -19,6 +20,7 @@ const Platform = ()=>{
         <SelfFunded/>
         <TextContent/>
         <TryNuloyal/>
+        <FAQ/>
         <Footer/>
         
         </>
