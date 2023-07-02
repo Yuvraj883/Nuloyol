@@ -49,3 +49,8 @@ ul li {
     cursor:pointer;
 
 }
+
+a.active {
+    color:red;
+    background-color: white;
+}
