@@ -1,0 +1,18 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size:xx-large;
+    font:bold;
+    color: #5A5A5A;
+
+
+}
+
+.main-div p{
+
+    margin:5px;
+    
+}
