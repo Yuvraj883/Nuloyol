@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'; 
 import HeroSection from '../components/HeroSection'; 
 import AboutSection from '../components/AboutSection'; 
@@ -13,7 +13,7 @@ import FAQ from '../components/FAQ';
 const Platform = ()=>{
     return(
         <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <HeroSection/>
         <WhatWeDo/>
         <AboutSection/>
