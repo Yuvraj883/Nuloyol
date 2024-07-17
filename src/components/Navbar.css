@@ -16,7 +16,7 @@
     font-size:28px;
     cursor: pointer;
     /* line-height: 46px; */
-    
+
 }
 
 ul{
@@ -27,7 +27,7 @@ ul{
     color: #515151;
 
 
-    
+
 }
 ul li {
     list-style: none;
@@ -53,4 +53,13 @@ ul li {
 a.active {
     color:red;
     background-color: white;
+}
+
+@media only screen and (min-width: 325px) and (max-width: 1024px) {
+  ul{
+    display: none;
+  }
+  .navbar{
+    padding:10px 25px;
+  }
 }
